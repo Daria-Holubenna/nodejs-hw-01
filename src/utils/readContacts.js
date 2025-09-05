@@ -4,14 +4,16 @@ import { PATH_DB } from '../constants/contacts.js';
 export const readContacts = async () => {
   try {
     const data = await fs.readFile(PATH_DB, 'utf8');
-    // const buffer = (await fs.readFile(PATH_DB)).toString('utf8');
-    // const data = buffer.toString('utf8');
-    console.log(data);
-    return data;
-  } catch (error) {
-    console.log('Error - readFile', error);
+      if (!data.trim()) {
+      return [];
+    }
+     return JSON.parse(data);
+ } catch (error) {
+    if (error.code === 'ENOENT') {
+      return [];
+    }
+     throw error;
   }
 };
-console.log(readContacts());
-//погоди монтаж прилетел
-// я поки подивлюсь/почитаю+
+
+
