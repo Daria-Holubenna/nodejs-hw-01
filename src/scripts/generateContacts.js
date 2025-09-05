@@ -12,7 +12,7 @@ const generateContacts = async (number) => {
     const createContact = createFakeContact(); 
          data.push(createContact);
   }
-      const dataString = JSON.stringify(data, null, 2)
+      const dataString = JSON.stringify(data, null, 2);
   await fs.appendFile(PATH_DB, dataString, 'utf8');
       try {
       log('success appendFile');

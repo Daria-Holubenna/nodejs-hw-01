@@ -40,5 +40,26 @@
     "phone": "1-200-772-9375 x917",
     "email": "Gideon.Runte@yahoo.com",
     "job": "Investor Program Assistant"
+  },
+  {
+    "id": "7fc21073-6e1f-4408-a977-21e2bced1661",
+    "name": "Ms. Mindy Koepp",
+    "phone": "573.391.6920 x44250",
+    "email": "Dax.Ritchie@hotmail.com",
+    "job": "Regional Data Supervisor"
+  },
+  {
+    "id": "be35817c-3c64-4099-bb53-466e55f3692c",
+    "name": "Simon Romaguera",
+    "phone": "1-540-334-9806 x50162",
+    "email": "Quinten_Kling@hotmail.com",
+    "job": "Corporate Operations Technician"
+  },
+  {
+    "id": "37846e59-432c-46aa-8cd1-53b7d3f0d519",
+    "name": "Dr. Rogelio Russel",
+    "phone": "1-930-924-6545 x1018",
+    "email": "Mona91@gmail.com",
+    "job": "Human Solutions Engineer"
   }
 ]
